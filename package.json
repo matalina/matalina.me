@@ -1,7 +1,7 @@
 {
-  "name": "windty",
-  "version": "1.0.0",
-  "description": "Simple 11ty template with tailwind",
+  "name": "matalina.m3",
+  "version": "0.1.0",
+  "description": "Home page for me",
   "scripts": {
     "start": "run-p start:*",
     "start:eleventy": "eleventy --serve",
@@ -11,21 +11,8 @@
     "build:postcss": "cross-env NODE_ENV=production postcss src/styles/*.css --dir _site",
     "clean": "rimraf _site"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/distantcam/windty.git"
-  },
-  "keywords": [
-    "eleventy",
-    "11ty",
-    "tailwind"
-  ],
-  "author": "Cam MacFarland",
-  "license": "Unlicense",
-  "homepage": "https://github.com/distantcam/windty#readme",
-  "bugs": {
-    "url": "https://github.com/distantcam/windty/issues"
-  },
+  "author": "Alicia Wilkerson",
+  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "autoprefixer": "^10.4.17",
